@@ -9,6 +9,8 @@
   position: relative;
   width: 100vw;
   height: 100vh;
+  box-shadow: 5px 5px 5px 5px rgba(13, 12, 12, 0.1);
+  padding: 10px;
 }
 #counter {
   display: flex;
@@ -68,6 +70,8 @@ h4 {
   font-size: 40px;
   color: aliceblue;
   border: none;
+  box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.2);
+  padding: 10px;
 }
 #minus-button {
   background-color: #6c757d;
@@ -76,4 +80,6 @@ h4 {
   border-radius: 8px;
   padding: 10px;
   font-size: 40px;
+  box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.2);
+  padding: 10px;
 }
