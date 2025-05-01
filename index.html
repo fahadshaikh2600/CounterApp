@@ -3,10 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Counter</title>
   </head>
   <body>
-    <script src="script.js"></script>
+    <!-- counter-section -->
+
+    <section id="counter-container">
+      <section id="counter">
+        <!--counter heading-->
+
+        <h2>Click Counter</h2>
+        <br />
+        <h4>Click Counter online. click'+' button or space to count:</h4>
+        <br />
+
+        <!--counter display starts here-->
+
+        <div id="bg-conatiner">
+          <div id="display-container">
+            <input type="number" id="display" min="0" value="0" />
+            <button id="reset-button">X</button>
+          </div>
+
+          <!--counter button starts here-->
+
+          <div id="button-container">
+            <button id="add-button">+</button>
+            <button id="minus-button">-</button>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <script src="./script.js"></script>
   </body>
 </html>
