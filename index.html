@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- here css is linked-->
+
     <link rel="stylesheet" href="./style.css" />
     <title>Counter</title>
   </head>
@@ -23,18 +26,20 @@
         <div id="bg-conatiner">
           <div id="display-container">
             <input type="number" id="display" min="0" value="0" />
-            <button id="reset-button">X</button>
+            <button id="reset-button" onclick="reset()">X</button>
           </div>
 
           <!--counter button starts here-->
 
           <div id="button-container">
-            <button id="add-button">+</button>
-            <button id="minus-button">-</button>
+            <button id="add-button" onclick="increment()">+</button>
+            <button id="minus-button" onclick="decrement()">-</button>
           </div>
         </div>
       </section>
     </section>
+
+    <!-- here js is linked-->
 
     <script src="./script.js"></script>
   </body>
